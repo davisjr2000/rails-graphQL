@@ -18,7 +18,7 @@ ActiveRecord::Schema.define(version: 2019_12_02_011348) do
     t.datetime "created_at", null: false
     t.datetime "updated_at", null: false
     t.string "cover_url"
-    t.integer "avarage_rating"
+    t.integer "average_rating"
     t.index ["user_id"], name: "index_books_on_user_id"
   end
 
